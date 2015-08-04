@@ -1,7 +1,7 @@
 #prereqs- fresh ubuntu 12.04 image, no ui
 #sudo apt-get update
 #curl
-sudo apt-get install --yes curl make python g++ libavahi-compat-libdnssd-dev
+sudo apt-get install --yes git curl make python g++ libavahi-compat-libdnssd-dev
 
 #node
 if !(hash npm 2>/dev/null); then
