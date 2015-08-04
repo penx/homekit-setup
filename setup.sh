@@ -13,5 +13,4 @@ if !(hash homebridge 2>/dev/null); then
   git clone https://github.com/nfarina/homebridge.git
   cd homebridge
   npm install
-  npm install homebridge
 fi
