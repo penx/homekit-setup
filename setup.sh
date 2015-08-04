@@ -9,11 +9,11 @@ if !(hash npm 2>/dev/null); then
   sudo apt-get install --yes nodejs
 fi
 #install homebridge
-if !(hash homebridge 2>/dev/null); then
+if [ ! -d "homebridge" ]; then; then
   git clone https://github.com/nfarina/homebridge.git
   cd homebridge
   npm install
-  cd ..
+  cd -
 fi
 #config homebridge
 cp config.json homebridge/
