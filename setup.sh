@@ -1,4 +1,4 @@
-#prereqs- fresh ubuntu 12.04 image, no ui
+#prereqs- minimual ubuntu-standard 14.04 installation
 #sudo apt-get update
 #curl
 sudo apt-get install --yes git curl make python g++ libavahi-compat-libdnssd-dev
